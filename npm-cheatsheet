@@ -1,0 +1,10 @@
+npm init // initializes the package.json files
+
+npm install // installs the packages required from the package.json dependencies
+
+npm install <package name> // installs package (in the node_modules directory) and adds it to the dependencies
+npm install -g <package name> // installs package globally, without adding it to the project's dependencies
+
+npm update <package name> // updates package
+npm update // updates packages in the package.json dependencies
+npm update -g // updates global packages
